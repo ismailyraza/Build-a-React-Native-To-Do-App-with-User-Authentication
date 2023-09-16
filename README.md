@@ -2,7 +2,7 @@
 
 Before diving into the code, let's outline the project structure
 css
-
+# Key Components
 Authentication:
 Firebase Authentication or implement a custom authentication system.
 Create screens and components for user registration, login, and password reset.
@@ -27,8 +27,19 @@ Enhancements (Bonus):
 Add due dates, task categories, sorting, and filtering features as needed.
 Implement additional features to enhance the user experience.
 
+# For Creating full React Native To-Do App with User Authentication app
 
-# Key Components
+First, setting up a new React Native project:
+npx react-native init MyToDoApp
+cd MyToDoApp
+
+Installing necessary dependencies:
+npm install @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler @react-native-community/async-storage firebase
+npm install @react-native-firebase/app @react-native-firebase/auth
+
+Create a Firebase configuration file (firebaseConfig.js)
+
+
 
 
 
