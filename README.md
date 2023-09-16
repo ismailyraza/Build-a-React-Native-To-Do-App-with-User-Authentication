@@ -88,6 +88,16 @@ HomeScreen.js
 Handling Navigation Parameters:
  HomeScreen1.js
 
+ # User Logout:
+
+ Create a Logout Function:
+ AuthContext.js
+
+ Use the Logout Function in UI:
+ ProfileScreen.js
+
+
+
 
 
 
