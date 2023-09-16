@@ -1,19 +1,36 @@
-
-import React from 'react';
-import { View, Button } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import React, { useState } from 'react';
+import { View, TextInput, Button, Text } from 'react-native';
+import { auth } from '@react-native-firebase/auth';
 
 const LoginScreen = () => {
-  const navigation = useNavigation();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState(null);
 
-  const handleRegister = () => {
-    navigation.navigate('Register'); // Navigate to the Register screen
+  const handleLogin = async () => {
+    try {
+      await auth().signInWithEmailAndPassword(email, password);
+      // User login successful, you can navigate to the next screen.
+    } catch (error) {
+      setErrorMessage(error.message);
+    }
   };
 
   return (
     <View>
-      {/* Your login form */}
-      <Button title="Register" onPress={handleRegister} />
+      <TextInput
+        placeholder="Email"
+        onChangeText={setEmail}
+        value={email}
+      />
+      <TextInput
+        placeholder="Password"
+        onChangeText={setPassword}
+        value={password}
+        secureTextEntry
+      />
+      <Button title="Login" onPress={handleLogin} />
+      {errorMessage && <Text style={{ color: 'red' }}>{errorMessage}</Text>}
     </View>
   );
 };
