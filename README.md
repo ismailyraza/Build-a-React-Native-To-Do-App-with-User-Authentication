@@ -47,6 +47,8 @@ npm install --save @react-native-firebase/app @react-native-firebase/auth
 Initialize Firebase:
 App.js
 
+Create Authentication Screens:
+RegisterScreen.js
 
 
 
