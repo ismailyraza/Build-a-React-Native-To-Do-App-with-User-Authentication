@@ -74,6 +74,20 @@ LoginScreen.js
 
 Navigation between Screens:
 
+# Navigation between Screens:
+
+Install React Navigation:
+npm install @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler
+
+Create a Stack Navigator
+MainNavigator.js
+
+Navigate Between Screens:
+HomeScreen.js
+
+Handling Navigation Parameters:
+ HomeScreen1.js
+
 
 
 
