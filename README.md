@@ -96,6 +96,10 @@ Handling Navigation Parameters:
  Use the Logout Function in UI:
  ProfileScreen.js
 
+# Test Authentication: 
+LoginScreen.test.js
+
+
 
 
 
