@@ -39,6 +39,17 @@ npm install @react-native-firebase/app @react-native-firebase/auth
 
 Create a Firebase configuration file (firebaseConfig.js)
 
+# Authentication: 
+
+Install Firebase Dependencies:
+npm install --save @react-native-firebase/app @react-native-firebase/auth
+
+Initialize Firebase:
+App.js
+
+
+
+
 
 
 
