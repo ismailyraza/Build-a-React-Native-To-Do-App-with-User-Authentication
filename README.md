@@ -59,6 +59,22 @@ To manage the user's authentication state across app.
 3. Access Authentication State and Methods:
    Screen.js
 
+# Navigate Between Authentication Screens:
+Install React Navigation:
+npm install @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler
+
+Create a Navigation Stack::
+AuthNavigator.js
+
+Wrap Authentication Screens with Navigation Container:
+App.js
+
+Implement Navigation Actions:
+LoginScreen.js
+
+Navigation between Screens:
+
+
 
 
 
