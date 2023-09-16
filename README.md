@@ -50,6 +50,18 @@ App.js
 Create Authentication Screens:
 RegisterScreen.js
 
+# Authentication State Management:
+To manage the user's authentication state across app.
+1. Create an AuthContext:
+   AuthContext.js
+2. Wrap App with the AuthProvider:
+   App.js
+3. Access Authentication State and Methods:
+   Screen.js
+
+
+
+
 
 
 
