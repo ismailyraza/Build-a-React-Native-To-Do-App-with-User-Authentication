@@ -100,6 +100,21 @@ Handling Navigation Parameters:
 LoginScreen.test.js
 
 
+# SOURCE CODES BACKEND AND FRONT-END:
+
+Backend (Node.js with Express and MongoDB)
+
+TO CREATE Node.js Project:
+mkdir auth-app-backend
+cd auth-app-backend
+npm init -y
+npm install express mongoose cors body-parser
+
+Creating the Backend Server :
+server.js
+
+
+
 
 
 
