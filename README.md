@@ -114,6 +114,18 @@ Creating the Backend Server :
 server.js
 
 
+# Frontend (React Native):
+
+Create a New React Native Project:
+npx react-native init AuthApp
+cd AuthApp
+
+Install Dependencies:
+npm install @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler @react-native-community/async-storage axios
+
+
+
+
 
 
 
